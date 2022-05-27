@@ -63,3 +63,6 @@ $(function(){
 <input id="btn" name="btn" type="button" value="ボタン">
 
 ```
+
+- ### 画像を Google Drive にアップロードして OCR
+	- 右クリックして、Google ドキュメント
