@@ -9,3 +9,15 @@
    
 - ### 画面設計の入力文字列表現
 ![image](https://user-images.githubusercontent.com/1501327/170617146-8ad423c3-e0ed-4e78-acbb-0ca207b6d19a.png)
+
+```
+<style>
+* {
+	font-size: 40px;
+}
+</style>
+社員コード <input id="fld" name="fld" type="text" value="9999" size="5">
+<br>
+<input id="fld" name="fld" type="text" value="9----------20------------9" style='width:400px'>
+```
+![image](https://user-images.githubusercontent.com/1501327/170618712-4e03d7ef-745a-431f-b325-a5e2853ed657.png)
