@@ -21,3 +21,9 @@
 <input id="fld" name="fld" type="text" value="9----------20------------9" style='width:400px'>
 ```
 ![image](https://user-images.githubusercontent.com/1501327/170618712-4e03d7ef-745a-431f-b325-a5e2853ed657.png)
+
+- ### localStorage へのデータセットと参照
+  - 参照
+    - console.log( localStorage["_save_code"] );
+  - セット
+    - localStorage["r202"] = "晴れてきた";
