@@ -35,7 +35,11 @@ SELECT
     date_format(curdate(), '%y/%c/%e');
 
 SELECT
-    DATE_ADD(curdate(), INTERVAL 5 DAY);
+    date_add(curdate(), INTERVAL 5 DAY);
 
 SELECT
     date_format(DATE_ADD(curdate(), INTERVAL 5 DAY), '%y/%c/%e');
+
+SELECT
+    LAST_DAY(date_add(curdate(), INTERVAL 1 YEAR));
+
