@@ -15,7 +15,7 @@
 ![image](https://user-images.githubusercontent.com/1501327/170620273-4382931b-9322-4fc5-8d1e-c6ed084e893e.png)
 
 
-```
+```html
 <style>
 * {
 	font-size: 40px;
@@ -32,3 +32,34 @@
     - console.log( localStorage["_save_code"] );
   - セット
     - localStorage["r202"] = "晴れてきた";
+
+
+- ### 簡単な jQuery( JavaScript ) のテスト
+```js
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+function js(){
+
+	alert((new Date()).getTime());
+
+}
+
+
+
+$(function(){
+
+	$("#btn").on( "click", function(){
+
+		if ( confirm("OK") ) {
+			js();
+		}
+
+	});
+
+});
+</script>
+
+<input id="btn" name="btn" type="button" value="ボタン">
+
+```
